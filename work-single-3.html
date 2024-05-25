@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Page Meta Tags-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="./assets/images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+
+    <!-- Fix for custom scrollbar if JS is disabled-->
+    <noscript>
+      <style>
+        /**
+       * Reinstate scrolling for non-JS clients
+       */
+        .simplebar-content-wrapper {
+          overflow: auto;
+        }
+      </style>
+    </noscript>
+
+    <!-- Page Title -->
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Locomotive Scroll Container-->
+    <div data-scroll-container>
+      <!-- Navbar -->
+      <nav
+        data-scroll-section
+        class="navbar navbar-expand-lg navbar-light bg-transparent mb-5 mb-lg-10"
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand d-flex align-items-center fade-in"
+            href="./index.html"
+            data-scroll
+          >
+            <picture
+              class="avatar me-3"
+              data-scroll
+              data-scroll-speed="10"
+              data-scroll-direction="horizontal"
+              data-scroll-position="top"
+            >
+              <img
+                class="img-fluid rounded-circle"
+                src="./assets/images/avatar-small.jpg"
+                alt=""
+              />
+            </picture>
+            <span class="fw-bolder fs-6 d-flex justify-content-start">
+              <span
+                class="fade-in"
+                data-scroll
+                data-scroll-speed="2"
+                data-scroll-delay=".03"
+                data-scroll-position="top"
+                >Irwan Nasari</span
+              >
+            </span>
+          </a>
+          <button
+            class="btn-icon navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="ri-menu-3-line"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            data-scroll
+            data-scroll-speed="4"
+            data-scroll-delay=".6"
+            data-scroll-position="top"
+          >
+            <ul class="navbar-nav me-0 ms-auto mb-2 mb-lg-0 mt-4 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./work-listing.html">Showcase</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item d-lg-none">
+                <a class="nav-link btn-toggle-mode" href="#"
+                  >Toggle Dark/Light Mode</a
+                >
+              </li>
+            </ul>
+          </div>
+          <button
+            class="btn-icon btn-toggle-mode ms-7 fade-in d-none d-lg-flex"
+            data-scroll
+            data-scroll-speed="-10"
+            data-scroll-direction="horizontal"
+            data-scroll-position="top"
+          >
+            <i class="ri-sun-line"></i>
+          </button>
+        </div>
+      </nav>
+      <!-- / Navbar-->
+
+      <!-- Main Section-->
+      <section class="container py-3" data-scroll-section>
+        <!-- Page Content Goes Here -->
+        <h1
+          class="display-3 mb-5"
+          data-scroll
+          data-scroll-speed="6"
+          data-scroll-position="top"
+        >
+          Video Editing Portofolio
+          <br>
+          <span style="font-size: 18px; display: block; margin-top: 1rem; margin-bottom: 3rem; color: #6c757d;">
+            Nowdays, video has proven to be a powerful method for engaging more customers and scaling up businesses.
+            <br>For example, content creators use videos to reach a wider audience.
+            <br>However, a good video requires great editing to truly stand out.
+            <hr style="width: 61%; margin: 1rem 0 1rem 0; border: 1px solid #ccc;">
+          </span>
+        </h1>
+
+
+        <div class="row g-4" data-scroll data-scroll-position="bottom">
+          <!-- Single Work 1 -->
+          <div class="row align-items-center single-work">
+            <!-- Image Section -->
+            <div
+              data-scroll
+              data-scroll-position="bottom"
+              class="col-12 col-md-6 fade-in-left"
+            >
+              <div class="position-relative custom-image-container">
+                <figure class="figure">
+                  <video
+                    class="img-fluid project-image rounded animate custom-image zoom-image"
+                    controls
+                  >
+                    <source
+                      src="./assets/video/Vid1.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <figcaption
+                    class="figure-caption fw-bold fst-italic mb-2 text-start text-responsive"
+                    style="
+                      color: whitesmoke;
+                      -webkit-text-stroke-color: #0f172a;
+                      -webkit-text-stroke-width: 1px;
+                      font-family: 'Poppins'; font-size: 17px;
+                    "
+                  >
+                    Example of adding sound to the soundless videos
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <!-- Zoom Section -->
+            <div
+              class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center zoom-section"
+            >
+              <p class="zoom-text text-responsive">
+                Hold and Slide to Zoom
+              </p>
+              <div class="zoom-container">
+                <input
+                  type="range"
+                  class="form-range zoom-range"
+                  min="0"
+                  max="5"
+                  value="0"
+                />
+              </div>
+            </div>
+            <!-- / Zoom Section -->
+          </div>
+          <!-- / Single Work 1 -->
+
+          <hr>
+
+          <!-- Single Work 2 -->
+          <div class="row align-items-center single-work">
+            <!-- Image Section -->
+            <div
+              data-scroll
+              data-scroll-position="bottom"
+              class="col-12 col-md-6 offset-md-6 fade-in-left"
+            >
+              <div class="position-relative custom-image-container-2">
+                <figure class="figure">
+                  <video
+                    class="img-fluid project-image rounded animate custom-image zoom-image"
+                    controls
+                  >
+                    <source
+                      src="./assets/video/Vid2.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <figcaption
+                    class="figure-caption fw-bold fst-italic mb-2 text-end text-responsive-2"
+                    style="
+                      color: whitesmoke;
+                      -webkit-text-stroke-color: #0f172a;
+                      -webkit-text-stroke-width: 1px;
+                      font-family: 'Poppins'; font-size: 17px;
+                    "
+                  >
+                  Example of adding subtitle and typing effect to videos
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <!-- Zoom Section -->
+            <div
+              class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center zoom-section"
+            >
+              <p class="zoom-text-2 text-responsive-2">
+                Hold and Slide to Zoom
+              </p>
+              <div class="zoom-container-2">
+                <input
+                  type="range"
+                  class="form-range zoom-range"
+                  min="0"
+                  max="5"
+                  value="0"
+                />
+              </div>
+            </div>
+            <!-- / Zoom Section -->
+          </div>
+          <!-- / Single Work 2 -->
+
+          <hr>
+
+          <!-- Single Work 3 -->
+          <div class="row align-items-center single-work">
+            <!-- Image Section -->
+            <div
+              data-scroll
+              data-scroll-position="bottom"
+              class="col-12 col-md-6 fade-in-left"
+            >
+              <div class="position-relative custom-image-container">
+                <figure class="figure">
+                  <video
+                    class="img-fluid project-image rounded animate custom-image zoom-image"
+                    controls
+                    muted
+                    loop
+                  >
+                    <source
+                      src="./assets/video/Vid3.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <figcaption
+                    class="figure-caption fw-bold fst-italic mb-2 text-start text-responsive"
+                    style="
+                      color: whitesmoke;
+                      -webkit-text-stroke-color: #0f172a;
+                      -webkit-text-stroke-width: 1px;
+                      font-family: 'Poppins'; font-size: 17px;
+                    "
+                  >
+                  Example of advertise/promotional videos
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <!-- Zoom Section -->
+            <div
+              class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center zoom-section"
+            >
+              <p class="zoom-text text-responsive">
+                Hold and Slide to Zoom
+              </p>
+              <div class="zoom-container">
+                <input
+                  type="range"
+                  class="form-range zoom-range"
+                  min="0"
+                  max="5"
+                  value="0"
+                />
+              </div>
+            </div>
+            <!-- / Zoom Section -->
+          </div>
+            <hr>
+
+              </section>
+      <!-- / Main Section-->
+
+      <!-- Footer -->
+      <div
+        class="d-flex align-items-center justify-content-center flex-column col-lg-9 col-xl-8 col-xxl-7 text-center mx-auto mt-5 px-4 px-md-0 mt-lg-10"
+        data-scroll-section
+      >
+        <h4
+          class="display-5 mb-5"
+          data-scroll
+          data-scroll-speed=".8"
+          data-scroll-delay="0.05"
+          class="text-responsive"
+        >
+          I hope I've met your
+          <span
+            ><i><u>requirements</u></i></span
+          >
+          and
+          <span
+            ><i><u>expectations</u></i></span
+          >, and I look forward to working with
+          <span class="link-body">you</span>
+        </h4>
+        <a href="./contact.html" class="btn btn-primary">Let's connect!</a>
+        <br>
+        <p>Or</p>
+        <a href="./work-listing.html">Explore More Creations</a>
+      </div>
+
+      <footer class="border-top mt-10 pt-5 pb-8" data-scroll-section>
+        <div class="container d-flex justify-content-between">
+          <p class="small text-responsive">Irwan Nasari @IGL 2024.</p>
+          <ul class="list-unstyled d-flex align-items-center">
+            <li class="ms-3">
+              <a
+                class="text-decoration-none text-muted"
+                href="https://www.linkedin.com/in/irwan-n-925357228/"
+                target="_blank"
+                ><i class="ri-linkedin-box-fill"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-decoration-none text-muted"
+                href="https://web.facebook.com/irwan.chrome/"
+                target="_blank"
+                ><i class="ri-facebook-fill"></i
+              ></a>
+            </li>
+            <!--
+          <li class="ms-3"><a class="text-decoration-none text-muted" href="#"><i class="ri-twitter-fill"></i></a></li>
+          --></ul>
+        </div>
+      </footer>
+      <!-- / Footer-->
+    </div>
+
+    <!-- /Locomotive Scroll Container-->
+
+    <!-- Theme JS -->
+    <!-- Vendor JS -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.bundle.js"></script>
+  </body>
+</html>

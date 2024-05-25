@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <!-- Page Meta Tags-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="./assets/images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Fix for custom scrollbar if JS is disabled-->
+    <noscript>
+      <style>
+        /**
+          * Reinstate scrolling for non-JS clients
+          */
+        .simplebar-content-wrapper {
+          overflow: auto;
+        }
+      </style>
+    </noscript>
+
+    <!-- Page Title -->
+    <title>My Portofolio</title>
+  </head>
+  <body class="">
+    <!-- Locomotive Scroll Container-->
+    <div data-scroll-container>
+      <!-- Navbar -->
+      <nav
+        data-scroll-section
+        class="navbar navbar-expand-lg navbar-light bg-transparent mb-5 mb-lg-10"
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand d-flex align-items-center fade-in"
+            href="./index.html"
+            data-scroll
+          >
+            <picture
+              class="avatar me-3"
+              data-scroll
+              data-scroll-speed="10"
+              data-scroll-direction="horizontal"
+              data-scroll-position="top"
+            >
+              <img
+                class="img-fluid rounded-circle"
+                src="./assets/images/avatar-small.jpg"
+                alt="Irwan Nasari Portofolio"
+              />
+            </picture>
+
+            <span
+              class="fw-bolder fs-6 d-flex justify-content-start"
+              data-scroll-section
+            >
+              <span
+                class="fade-in"
+                data-scroll
+                data-scroll-speed="2"
+                data-scroll-delay=".03"
+                data-scroll-position="top"
+                >Irwan Nasari</span
+              >
+            </span>
+          </a>
+
+          <button
+            class="btn-icon navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="ri-menu-3-line"></i>
+          </button>
+
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            data-scroll
+            data-scroll-speed="4"
+            data-scroll-delay=".6"
+            data-scroll-position="top"
+          >
+            <ul class="navbar-nav me-0 ms-auto mb-2 mb-lg-0 mt-4 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./work-listing.html">Showcase</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html"
+                  >Contact & Social Media</a
+                >
+              </li>
+              <li class="nav-item d-lg-none">
+                <a class="nav-link btn-toggle-mode" href="#"
+                  >Toggle Dark/Light Mode</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <button
+            class="btn-icon btn-toggle-mode ms-7 fade-in d-none d-lg-flex"
+            data-scroll
+            data-scroll-speed="-10"
+            data-scroll-direction="horizontal"
+            data-scroll-position="top"
+          >
+            <i class="ri-sun-line"></i>
+          </button>
+        </div>
+      </nav>
+      <!-- / Navbar-->
+
+      <!-- Main Section-->
+
+      <section class="py-3">
+        <!-- Page Content Goes Here -->
+
+        <div class="container" data-scroll-section>
+          <!-- Hero-->
+          <div class="mb-lg-10">
+            <p
+              class="subtitle-sm"
+              data-scroll
+              data-scroll-speed="2"
+              data-scroll-position="top"
+            >
+              Hello,
+            </p>
+            <h1
+              class="display-1 mb-4"
+              data-scroll
+              data-scroll-speed="4"
+              data-scroll-position="top"
+            >
+              I'm <span><i>Irwan Nasari.</i></span>
+            </h1>
+            <p
+              data-scroll
+              data-scroll-speed="6"
+              data-scroll-position="top"
+              class="lead typed-elem"
+            >
+              I'm capable in
+              <span
+                class="fw-bold text-highlight"
+                data-typed='{"backSpeed": 50,"strings": ["Graphic Design", "Mockup Project", "Web Design", "Motion Graphic", "Video Editing"]}'
+              ></span
+              ><span class="d-block"></span>
+            </p>
+            <p
+              data-scroll
+              data-scroll-speed="6"
+              data-scroll-position="top"
+              class="lead typed-elem"
+            >
+              My Skill include but not limited to
+              <span class="fw-bold" id="skill-typed"></span>
+              <span class="d-block"></span>
+            </p>
+          </div>
+
+          <!-- /Hero-->
+
+          <!-- Latest Projects Slideshow Top-->
+
+          <div>
+            <h2
+              class="display-6 border-bottom pb-3 mb-3 fade-in-up"
+              data-scroll
+              data-scroll-position="bottom"
+            >
+              Works Example
+            </h2>
+
+            <div class="position-relative">
+              <div class="swiper-container swiper-linked-top" id="topSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide cursor-pointer">
+                    <picture>
+                      <img
+                        class="img-fluid rounded-3"
+                        src="./assets/images/mockup1-listing.jpg"
+                        alt=""
+                      />
+                    </picture>
+                  </div>
+                  <div class="swiper-slide cursor-pointer">
+                    <picture>
+                      <img
+                        class="img-fluid rounded-3"
+                        src="./assets/images/motiongraphic2-listing.jpg"
+                        alt=""
+                      />
+                    </picture>
+                  </div>
+                  <div class="swiper-slide cursor-pointer">
+                    <picture>
+                      <img
+                        class="img-fluid rounded-3"
+                        src="./assets/images/video2-listing.jpg"
+                        alt=""
+                      />
+                    </picture>
+                  </div>
+                  <div class="swiper-slide cursor-pointer">
+                    <picture>
+                      <img
+                        class="img-fluid rounded-3"
+                        src="./assets/images/gd-listing.png"
+                        alt=""
+                      />
+                    </picture>
+                  </div>
+                  <div class="swiper-slide cursor-pointer">
+                    <picture>
+                      <img
+                        class="img-fluid rounded-3"
+                        src="./assets/images/website1-listing.jpg"
+                        alt=""
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-prev swiper-btn">
+                <i class="ri-arrow-left-line"></i>
+              </div>
+              <div class="swiper-next swiper-btn">
+                <i class="ri-arrow-right-line"></i>
+              </div>
+            </div>
+          </div>
+          <!-- / Latest Projects Slideshow Top-->
+
+          <!-- Latest Projects Slideshow Bottom-->
+          <div class="mt-3 mb-5" id="bottomSection">
+            <div class="swiper-container swiper-linked-bottom">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="row gx-4 align-items-center">
+                    <!-- Slide Image-->
+                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                      <picture>
+                        <img
+                          class="img-fluid"
+                          src="./assets/images/mockup1-listing.png"
+                          alt=""
+                        />
+                      </picture>
+                    </div>
+                    <!-- / Slide Image -->
+
+                    <!-- Slide Text-->
+                    <div class="col-12 col-md-6">
+                      <div class="shared-content">
+                        <p
+                          class="subtitle-xs mb-0 mt-4 mt-md-0"
+                          data-swiper-parallax-x="-100"
+                        >
+                          <span class="me-2">shared content</span> &middot;
+                          <span class="ms-2">shared content</span>
+                        </p>
+                        <p
+                          class="fw-bolder lead mb-3 mt-2"
+                          data-swiper-parallax-x="-150"
+                        >
+                          shared content in theme bundle
+                        </p>
+                        <p
+                          class="small text-muted mb-2"
+                          data-swiper-parallax-x="-200"
+                        >
+                          shared content in theme bundle
+                        </p>
+                        <div class="mt-3" data-swiper-parallax-y="-15">
+                          <a class="link-body" href="./work-single-1.html"
+                            >shared content in theme bundle</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <!-- / Slide Text-->
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="row gx-4 align-items-center">
+                    <!-- Slide Image-->
+                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                      <video class="img-fluid" autoplay muted loop>
+                        <source
+                          src="./assets/video/motiongraphic2-listing.mp4"
+                          type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <!-- / Slide Image -->
+
+                    <!-- Slide Text-->
+
+                    <div class="col-12 col-md-6">
+                      <div class="shared-content-2">
+                        <p
+                          class="subtitle-xs mb-0 mt-4 mt-md-0"
+                          data-swiper-parallax-x="-100"
+                        >
+                          <span class="me-2">shared content</span> &middot;
+                          <span class="ms-2">shared content</span>
+                        </p>
+                        <p
+                          class="fw-bolder lead mb-3 mt-2"
+                          data-swiper-parallax-x="-150"
+                        >
+                          shared content in theme bundle
+                        </p>
+                        <p
+                          class="small text-muted mb-2"
+                          data-swiper-parallax-x="-200"
+                        >
+                          shared content in theme bundle
+                        </p>
+                        <div class="mt-3" data-swiper-parallax-y="-15">
+                          <a class="link-body" href="./work-single-2.html"
+                            >shared content in theme bundle</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <!-- / Slide Text-->
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="row gx-4 align-items-center">
+                    <!-- Slide Image-->
+                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                      <video class="video-toggle img-fluid" autoplay muted loop>
+                        <source
+                          src="./assets/video/video2-listing.mp4"
+                          type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <!-- / Slide Image -->
+
+                    <!-- Slide Text-->
+                    <div class="col-12 col-md-6">
+                      <div class="shared-content-3">
+                        <p
+                          class="subtitle-xs mb-0 mt-4 mt-md-0"
+                          data-swiper-parallax-x="-100"
+                        >
+                          <span class="me-2">shared content</span> &middot;
+                          <span class="ms-2">shared content</span>
+                        </p>
+                        <p
+                          class="fw-bolder lead mb-3 mt-2"
+                          data-swiper-parallax-x="-150"
+                        >
+                          shared content in theme bundle
+                        </p>
+                        <p
+                          class="small text-muted mb-2"
+                          data-swiper-parallax-x="-200"
+                        >
+                          shared content in theme bundle
+                        </p>
+                        <div class="mt-3" data-swiper-parallax-y="-15">
+                          <a class="link-body" href="./work-single-3.html"
+                            >shared content in theme bundle</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <!-- / Slide Text-->
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="row gx-4 align-items-center">
+                    <!-- Slide Image-->
+                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                      <picture>
+                        <img
+                          class="img-fluid"
+                          src="./assets/images/gd-listing.png"
+                          alt=""
+                        />
+                      </picture>
+                    </div>
+                    <!-- / Slide Image -->
+
+                    <!-- Slide Text-->
+                    <div class="col-12 col-md-6">
+                      <div class="shared-content-4">
+                        <p
+                          class="subtitle-xs mb-0 mt-4 mt-md-0"
+                          data-swiper-parallax-x="-100"
+                        >
+                          <span class="me-2">shared content</span> &middot;
+                          <span class="ms-2">shared content</span>
+                        </p>
+                        <p
+                          class="fw-bolder lead mb-3 mt-2"
+                          data-swiper-parallax-x="-150"
+                        >
+                          shared content in theme bundle
+                        </p>
+                        <p
+                          class="small text-muted mb-2"
+                          data-swiper-parallax-x="-200"
+                        >
+                          shared content in theme bundle
+                        </p>
+                        <div class="mt-3" data-swiper-parallax-y="-15">
+                          <a class="link-body" href="./work-single-4.html"
+                            >shared content in theme bundle</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <!-- / Slide Text-->
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="row gx-4 align-items-center">
+                    <!-- Slide Image-->
+                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                      <video class="video-toggle img-fluid" autoplay muted loop>
+                        <source
+                          src="./assets/video/website1-listing.mp4"
+                          type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <!-- / Slide Image -->
+
+                    <!-- Slide Text-->
+                    <div class="col-12 col-md-6">
+                      <div class="shared-content-5">
+                        <p
+                          class="subtitle-xs mb-0 mt-4 mt-md-0"
+                          data-swiper-parallax-x="-100"
+                        >
+                          <span class="me-2">shared content</span> &middot;
+                          <span class="ms-2">shared content</span>
+                        </p>
+                        <p
+                          class="fw-bolder lead mb-3 mt-2"
+                          data-swiper-parallax-x="-150"
+                        >
+                          shared content in theme bundle
+                        </p>
+                        <p
+                          class="small text-muted mb-2"
+                          data-swiper-parallax-x="-200"
+                        >
+                          shared content in theme bundle
+                        </p>
+                        <div class="mt-3" data-swiper-parallax-y="-15">
+                          <a class="link-body" href="./work-single-5.html"
+                            >shared content in theme bundle</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <!-- / Slide Text-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / Latest Projects Slideshow Bottom-->
+
+          <!-- Experience-->
+          <div class="py-lg-6" data-scroll>
+            <h2
+              class="display-6 border-bottom pb-5 mb-5 fade-in-up"
+              data-scroll
+              data-scroll-position="bottom"
+            >
+              Experience
+            </h2>
+
+            <!-- Single Experience-->
+            <div
+              class="row gx-2 mb-5 fade-in-up"
+              data-scroll
+              data-scroll-position="bottom"
+            >
+              <div class="col-12 col-lg-4">
+                <p class="fw-bolder mb-1">Freelance @IGL</p>
+                <span class="text-muted small">(2017 - 2024)</span>
+              </div>
+              <div class="col-12 col-lg-8">
+                <p class="fw-bolder">
+                  Owner @IGL (Freelance personal branding)
+                </p>
+                <p class="text-muted fw-light fs-6">
+                  The impact of Covid-19 led to a significant loss of customers
+                  for my business. Utilizing my skill set, I decided to create
+                  an online portfolio. I continuously learn various design
+                  skills and web development techniques, dedicating time each
+                  day to hone my abilities.
+                </p>
+                <a class="link-body" href="#">https://www.nwd.co.uk</a>
+              </div>
+            </div>
+            <!-- / Single Experience -->
+            <!-- Single Experience-->
+            <div
+              class="row gx-2 mb-5 fade-in-up"
+              data-scroll
+              data-scroll-position="bottom"
+            >
+              <div class="col-12 col-lg-4">
+                <p class="fw-bolder mb-1">Freelance @IGL</p>
+                <span class="text-muted small">(2018 - 2019)</span>
+              </div>
+              <div class="col-12 col-lg-8">
+                <p class="fw-bolder">Video Editor</p>
+                <p class="text-muted fw-light fs-6">
+                  Seeking a new challenge, I became a video editor for a new
+                  YouTube channel creator. However, the channel owner suddenly
+                  decided to quit due to personal reasons. Nevertheless, I now
+                  have valuable video editing skills.
+                </p>
+                <a class="link-body" href="#">https://www.youtube.com</a>
+              </div>
+            </div>
+            <!-- / Single Experience -->
+            <!-- Single Experience-->
+            <div
+              class="row gx-2 mb-5 fade-in-up"
+              data-scroll
+              data-scroll-position="bottom"
+            >
+              <div class="col-12 col-lg-4">
+                <p class="fw-bolder mb-1">
+                  Established IGL brand for Freelance Services
+                </p>
+                <span class="text-muted small">(2017)</span>
+              </div>
+              <div class="col-12 col-lg-8">
+                <p class="fw-bolder">Graphic Designer and costumer relation</p>
+                <p class="text-muted fw-light fs-6">
+                  As I started my own brand, I handled everything myself—from
+                  designing to meet customer needs, to printing, delivering,
+                  pricing and managing payments. It was exhausting at first, but
+                  I truly love my job and have gained a wealth of experience.
+                </p>
+              </div>
+            </div>
+            <!-- / Single Experience -->
+            <div
+              class="row gx-2 mb-5 fade-in-up"
+              data-scroll
+              data-scroll-position="bottom"
+            >
+              <div class="col-12 col-lg-4">
+                <p class="fw-bolder mb-1">SHAS</p>
+                <span class="text-muted small">(2012 - 2017)</span>
+              </div>
+              <div class="col-12 col-lg-8">
+                <p class="fw-bolder">Data Administrator</p>
+                <p class="text-muted fw-light fs-6">
+                  As a data administrator, I am responsible for managing
+                  customer data, compiling customer information, and printing
+                  customer orders to ensure timely shipment of their items. I
+                  use the program Accurate to facilitate these tasks.
+                </p>
+              </div>
+            </div>
+            <!-- / Single Experience -->
+          </div>
+          <!-- / Experience-->
+        </div>
+
+        <!-- Testimonials-->
+        <!-- Testimonials
+            <div class="mt-8">
+              <div class="d-flex mb-4" data-scroll-section>
+                <div class="testimonials" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8" data-scroll-offset="0">
+                      <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "Jenny offered creative logos without production deadlines too complicated or tight spots where others could not go. Not only does her work make us look good but also feels really nice working alongside someone you can trust!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-1.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Emily Parkson</p>
+                                    <p class="small text-muted m-0 lh-1">Waterpark Theatre</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I had the best experience working with Jenny. She is a creative, talented and fun person to be around! Her attention-to detail made it easy for me as her client because we knew what was wanted from day one."
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-7.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Patrick Smith</p>
+                                    <p class="small text-muted m-0 lh-1">Cologne Limited</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I was really pleased with the logo designs that Jenny created for my organization. The logos are instantly recognizable, making it easy to find our brand in a crowded market of other education providers."
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-6.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Harry Duckmore</p>
+                                    <p class="small text-muted m-0 lh-1">SB Design Limited</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "She&#x27;s always professional and clear in her communications, but it was when she started giving me advice on how to improve our website design that really made a difference for us--she had so many good ideas!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-4.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Nelly Oliver</p>
+                                    <p class="small text-muted m-0 lh-1">Super 8 Design House</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I was really pleased with the logo designs that Jenny created for my organization. The logos are instantly recognizable, making it easy to find our brand in a crowded market of other education providers."
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-1.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Sarah Fell</p>
+                                    <p class="small text-muted m-0 lh-1">SFell Limited</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "She&#x27;s always professional and clear in her communications, but it was when she started giving me advice on how to improve our website design that really made a difference for us--she had so many good ideas!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-2.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Henry Kingsom</p>
+                                    <p class="small text-muted m-0 lh-1">Henry Codes Ltd</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>    </div>
+              </div>
+              <div class="d-flex justify-content-end" data-scroll-section>
+                <div class="testimonials" data-scroll data-scroll-direction="horizontal" data-scroll-speed="8" data-scroll-offset="0">
+                      <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "Working with Jenny was an absolute dream. She offered us the perfect logo without any complicated deadlines or tight spots that other designers could not navigate to save their life!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-5.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Peter Jackson</p>
+                                    <p class="small text-muted m-0 lh-1">WimWam Limited</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I had the best experience working with Jenny. She is a creative, talented and fun person to be around! Her attention-to detail made it easy for me as her client because we knew what was wanted from day one."
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-6.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Patricia Nelson</p>
+                                    <p class="small text-muted m-0 lh-1">Cologne Limited</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "Working with Jenny was a real pleasure. Not only does her work make us look good but also feels really nice working alongside someone you can trust both personally and professionally!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-7.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Stephen King</p>
+                                    <p class="small text-muted m-0 lh-1">King Coding Ltd</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "With a creative approach to logos, she was able provide us with custom designs without ever having an unrealistic deadline. Not only does the work make our company look good but also feel really nice when we can trust someone!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-3.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Simon Smith</p>
+                                    <p class="small text-muted m-0 lh-1">Brand Juice Co</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I&#x27;ve never met anyone who is more professional and clear in their communications than Jenny, but it was when she started giving me advice on how to improve our website design that really made a difference for us -- she had so many good ideas!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-1.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Joe Hill</p>
+                                    <p class="small text-muted m-0 lh-1">Joe Hill Software</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I can&#x27;t say enough good things about Jenny! We started as a client last year after she made some major changes for us which turned out beautifully. We&#x27;ll be a client for as long as she will work with us!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-2.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Rob Waite</p>
+                                    <p class="small text-muted m-0 lh-1">RW Software Services</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>    </div>
+              </div>
+            </div>
+            / Testimonials-->
+        <!--/ Testimonials-->
+
+        <!-- /Page Content -->
+      </section>
+      <!-- / Main Section-->
+
+      <!-- Footer -->
+      <!-- Footer-->
+      <div
+        class="d-flex align-items-center justify-content-center flex-column col-lg-9 col-xl-8 col-xxl text-center mx-auto mt-5 px-4 px-md-0 mt-lg-10"
+        data-scroll-section
+      >
+        <h4
+          class="display-5 mb-5"
+          data-scroll
+          data-scroll-speed=".8"
+          data-scroll-delay="0.05"
+          class="text-responsive"
+        >
+          I hope I've met your
+          <span
+            ><i><u>requirements</u></i></span
+          >
+          and
+          <span
+            ><i><u>expectations</u></i></span
+          >, and I look forward to working with
+          <span class="link-body">you</span>
+        </h4>
+        <a href="./contact.html" class="btn btn-primary">Let's connect!</a>
+      </div>
+
+      <footer class="border-top mt-10 pt-5 pb-8" data-scroll-section>
+        <div class="container d-flex justify-content-between">
+          <p class="small text-responsive">Irwan Nasari @IGL 2024.</p>
+          <ul class="list-unstyled d-flex align-items-center">
+            <li class="ms-3">
+              <a
+                class="text-decoration-none text-muted"
+                href="https://www.linkedin.com/in/irwan-n-925357228/"
+                target="_blank"
+                ><i class="ri-linkedin-box-fill"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-decoration-none text-muted"
+                href="https://web.facebook.com/irwan.chrome/"
+                target="_blank"
+                ><i class="ri-facebook-fill"></i
+              ></a>
+            </li>
+            <!----
+              <li class="ms-3"><a class="text-decoration-none text-muted" href="#"><i class="ri-twitter-fill"></i></a></li>
+              -->
+          </ul>
+        </div>
+      </footer>
+      <!-- / Footer-->
+      <!-- / Footer-->
+    </div>
+    <!-- Locomotive Scroll Container-->
+
+    <!-- Theme JS -->
+    <!-- Vendor JS -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.bundle.js"></script>
+    <script src="./assets/js/shared-content.js"></script>
+  </body>
+</html>
